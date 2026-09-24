@@ -7,4 +7,10 @@ export interface Article {
   description: string;
   comments: Comment[];
   favorited: boolean;
+  
+  author?: string;
+  tags?: string[];
+  createdAt?: string;
+  updatedAt?: string;
+  favoritesCount?: number;
 }

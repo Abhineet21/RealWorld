@@ -6,5 +6,10 @@ export interface Comment {
   updatedAt: Date;
   body: string;
   article?: Article;
-}
 
+  // Optional metadata
+  author?: string;
+  authorId?: number;
+  likesCount?: number;
+  edited?: boolean;
+}
